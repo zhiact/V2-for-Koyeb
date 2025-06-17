@@ -21,7 +21,8 @@
 
 ## 部署:
 * 注册 [Koyeb.com](https://app.koyeb.com/auth/signin/)
-* [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=docker&name=v2r&ports=80;http;/&env[UUID]=de04add9-5c68-8bab-950c-08cd5320df18&env[NEZHA_SERVER]=server%20domain%20or%20ip&env[NEZHA_PORT]=server%20port&env[NEZHA_KEY]=agent%20key&image=docker.io/fscarmen/v2-koyeb) |
+* [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=docker&name=v2r&ports=80;http;/&env[UUID]=de04add9-5c68-8bab-950c-08cd5320df18&env[NEZHA_SERVER]=server%20domain%20or%20ip&env[NEZHA_PORT]=server%20port&env[NEZHA_KEY]=agent%20key&image=docker.io/zhiact/v2-koyeb) |
+* 
 * 可用到的变量
   | 变量名 | 是否必须 | 默认值 | 备注 |
   | ------------ | ------ | ------ | ------ |
