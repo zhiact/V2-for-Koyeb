@@ -16,7 +16,7 @@ rm -f config.json
 
 # 如果有设置哪吒探针三个变量,会安装。如果不填或者不全,则不会安装
 TLS=${NEZHA_TLS:+'--tls'}
-[ -n "${NEZHA_SERVER}" ]  && [ -n "${NEZHA_KEY}" ] && curl -L https://raw.githubusercontent.com/nezhahq/scripts/main/agent/install.sh -o agent.sh && chmod +x agent.sh && env NZ_SERVER=${NEZHA_SERVER} NZ_TLS=true NZ_CLIENT_SECRET=${NEZHA_KEY} ./agent.sh
+[ -n "${NEZHA_SERVER}" ]  && [ -n "${NEZHA_KEY}" ] && curl -L https://raw.githubusercontent.com/nezhahq/scripts/main/agent/install.sh -o agent.sh && chmod +x agent.sh && env NZ_UUID=${UUID} NZ_SERVER=${NEZHA_SERVER} NZ_TLS=true NZ_CLIENT_SECRET=${NEZHA_KEY} ./agent.sh
 
 
 # 运行 nginx 和 v2ray
